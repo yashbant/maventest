@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.orglearningMaven.HelloWorldTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 18.298 s <<< FAILURE! - in com.orglearningMaven.HelloWorldTest
-Login(com.orglearningMaven.HelloWorldTest)  Time elapsed: 17.05 s  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 18.907 s <<< FAILURE! - in com.orglearningMaven.HelloWorldTest
+Login(com.orglearningMaven.HelloWorldTest)  Time elapsed: 17.402 s  <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
 session not created
 from chrome not reachable

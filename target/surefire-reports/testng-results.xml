@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="17063" started-at="2020-01-23T14:15:33Z" finished-at="2020-01-23T14:15:50Z">
+  <suite name="Surefire suite" duration-ms="17416" started-at="2020-01-23T14:21:31Z" finished-at="2020-01-23T14:21:48Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="17063" started-at="2020-01-23T14:15:33Z" finished-at="2020-01-23T14:15:50Z">
+    <test name="Surefire test" duration-ms="17416" started-at="2020-01-23T14:21:31Z" finished-at="2020-01-23T14:21:48Z">
       <class name="com.orglearningMaven.HelloWorldTest">
-        <test-method status="FAIL" signature="Login()[pri:0, instance:com.orglearningMaven.HelloWorldTest@21bcffb5]" name="Login" duration-ms="17036" started-at="2020-01-23T19:45:33Z" finished-at="2020-01-23T19:45:50Z">
+        <test-method status="FAIL" signature="Login()[pri:0, instance:com.orglearningMaven.HelloWorldTest@21bcffb5]" name="Login" duration-ms="17381" started-at="2020-01-23T19:51:31Z" finished-at="2020-01-23T19:51:48Z">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created

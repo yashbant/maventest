@@ -8,9 +8,9 @@ public class HelloWorldTest {
 	
 @Test 
 	public void Login() {
-	String projectLocation = System.getProperty("user.dir");
+	//String projectLocation = System.getProperty("user.dir");
 	 System.out.println("Logging into account");
-	 System.setProperty("webdriver.chrome.driver", projectLocation+"\\lib\\chromedriver.exe");
+	 System.setProperty("webdriver.chrome.driver", "lib/chromedriver.exe");
 	 WebDriver driver = new ChromeDriver();
 	 driver.get("https://google.com");
 }
