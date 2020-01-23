@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.orglearningMaven.HelloWorldTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 10.412 s <<< FAILURE! - in com.orglearningMaven.HelloWorldTest
-testPageTitleSampleA(com.orglearningMaven.HelloWorldTest)  Time elapsed: 0.012 s  <<< FAILURE!
-java.lang.NullPointerException
-	at com.orglearningMaven.HelloWorldTest.testPageTitleSampleA(HelloWorldTest.java:29)
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.414 s <<< FAILURE! - in com.orglearningMaven.HelloWorldTest
+Login(com.orglearningMaven.HelloWorldTest)  Time elapsed: 0.132 s  <<< FAILURE!
+java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+	at com.orglearningMaven.HelloWorldTest.Login(HelloWorldTest.java:14)
 
