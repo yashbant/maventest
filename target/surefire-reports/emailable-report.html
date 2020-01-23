@@ -31,78 +31,25 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Surefire test</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">17.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Surefire test</td><td class="numi">2</td><td class="numi">2</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">8.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
 <tr><th colspan="4">Surefire test &#8212; failed</th></tr>
-<tr class="failedodd"><td rowspan="1">com.orglearningMaven.HelloWorldTest</td><td><a href="#m1"><b>Login</b>  </a></td><td class="numi">1</td><td>1579789291157</td><td class="numi">17381</td></tr>
+<tr class="failedodd"><td rowspan="1">com.orglearningMaven.HelloWorldTest</td><td><a href="#m1"><b>testPageTitleSampleA</b>  </a></td><td class="numi">1</td><td>1579791644534</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Surefire test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="2">com.orglearningMaven.HelloWorldTest</td><td><a href="#m2"><b>Login</b>  </a></td><td class="numi">1</td><td>1579791635679</td><td class="numi">8853</td></tr><tr class="passedodd"><td><a href="#m3"><b>testSampleThree</b>  </a></td><td class="numi">1</td><td>1579791644548</td><td class="numi">0</td></tr>
 </table>
 <h1>Surefire test</h1>
-<h2 id="m1">com.orglearningMaven.HelloWorldTest:Login</h2>
+<h2 id="m1">com.orglearningMaven.HelloWorldTest:testPageTitleSampleA</h2>
 <div style="padding-left:3em">
-<p>session not created
-from chrome not reachable
-  (Session info: chrome=79.0.3945.130)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-SAMJ4PE&apos;, ip: &apos;192.168.1.152&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x0028A113+1548563]
-	Ordinal0 [0x0020DDA1+1039777]
-	Ordinal0 [0x0018E32E+516910]
-	Ordinal0 [0x00188012+491538]
-	Ordinal0 [0x001886EB+493291]
-	Ordinal0 [0x00189855+497749]
-	Ordinal0 [0x00185885+481413]
-	Ordinal0 [0x0018F0D0+520400]
-	Ordinal0 [0x0013C030+180272]
-	Ordinal0 [0x0013B59D+177565]
-	Ordinal0 [0x001395FB+169467]
-	Ordinal0 [0x0012160A+71178]
-	Ordinal0 [0x00122690+75408]
-	Ordinal0 [0x00122629+75305]
-	Ordinal0 [0x002271B7+1143223]
-	GetHandleVerifier [0x00322B46+507814]
-	GetHandleVerifier [0x00322864+507076]
-	GetHandleVerifier [0x00329F47+537511]
-	GetHandleVerifier [0x00323402+510050]
-	Ordinal0 [0x0021F29C+1110684]
-	Ordinal0 [0x0022938B+1151883]
-	Ordinal0 [0x002294F3+1152243]
-	Ordinal0 [0x002283F5+1147893]
-	BaseThreadInitThunk [0x75A26359+25]
-	RtlGetAppContainerNamedObjectPath [0x773F7B74+228]
-	RtlGetAppContainerNamedObjectPath [0x773F7B44+180]
-</p>
-sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-<br/>at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-<br/>at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-<br/>at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-<br/>at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-<br/>at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-<br/>at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
-<br/>at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
-<br/>at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
-<br/>at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
-<br/>at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-<br/>at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-<br/>at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
-<br/>at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-<br/>at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-<br/>at com.orglearningMaven.HelloWorldTest.Login(HelloWorldTest.java:14)
+<p>null</p>
+com.orglearningMaven.HelloWorldTest.testPageTitleSampleA(HelloWorldTest.java:29)
 <br/>30 lines not shown
 </div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.orglearningMaven.HelloWorldTest:Login</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.orglearningMaven.HelloWorldTest:testSampleThree</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

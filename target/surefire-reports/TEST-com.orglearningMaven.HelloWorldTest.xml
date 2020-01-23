@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.orglearningMaven.HelloWorldTest" time="18.907" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.orglearningMaven.HelloWorldTest" time="10.412" tests="3" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\BioQuest Win\AppData\Local\Temp\surefire5032682425221505769\surefirebooter7338767278136212281.jar C:\Users\BioQuest Win\AppData\Local\Temp\surefire5032682425221505769 2020-01-23T19-51-28_601-jvmRun1 surefire8386724990191407716tmp surefire_04038787921973112822tmp"/>
+    <property name="sun.java.command" value="C:\Users\BioQuest Win\AppData\Local\Temp\surefire6790338304031462697\surefirebooter4337249709066452231.jar C:\Users\BioQuest Win\AppData\Local\Temp\surefire6790338304031462697 2020-01-23T20-30-33_229-jvmRun1 surefire262577509108840464tmp surefire_07695431880241279162tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\BioQuest Win\eclipse-workspace\myMavenProject\target\test-classes;C:\Users\BioQuest Win\eclipse-workspace\myMavenProject\target\classes;C:\Users\BioQuest Win\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\BioQuest Win\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\BioQuest Win\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\BioQuest Win\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\BioQuest Win\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\BioQuest Win\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\BioQuest Win\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\BioQuest Win\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\BioQuest Win\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\BioQuest Win\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\BioQuest Win\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\BioQuest Win\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\BioQuest Win\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\BioQuest Win\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\BioQuest Win\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\BioQuest Win\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\BioQuest Win\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\BioQuest Win\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\BioQuest Win\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\BioQuest Win\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\BioQuest Win\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\BioQuest Win\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\Users\BioQuest Win\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\BioQuest Win\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\BioQuest Win\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\BioQuest Win"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\BioQuest Win\AppData\Local\Temp\surefire5032682425221505769\surefirebooter7338767278136212281.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\BioQuest Win\AppData\Local\Temp\surefire6790338304031462697\surefirebooter4337249709066452231.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,51 +60,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="Login" classname="com.orglearningMaven.HelloWorldTest" time="17.402">
-    <failure message="session not created&#10;from chrome not reachable&#10;  (Session info: chrome=79.0.3945.130)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-SAMJ4PE&apos;, ip: &apos;192.168.1.152&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x0028A113+1548563]&#10;	Ordinal0 [0x0020DDA1+1039777]&#10;	Ordinal0 [0x0018E32E+516910]&#10;	Ordinal0 [0x00188012+491538]&#10;	Ordinal0 [0x001886EB+493291]&#10;	Ordinal0 [0x00189855+497749]&#10;	Ordinal0 [0x00185885+481413]&#10;	Ordinal0 [0x0018F0D0+520400]&#10;	Ordinal0 [0x0013C030+180272]&#10;	Ordinal0 [0x0013B59D+177565]&#10;	Ordinal0 [0x001395FB+169467]&#10;	Ordinal0 [0x0012160A+71178]&#10;	Ordinal0 [0x00122690+75408]&#10;	Ordinal0 [0x00122629+75305]&#10;	Ordinal0 [0x002271B7+1143223]&#10;	GetHandleVerifier [0x00322B46+507814]&#10;	GetHandleVerifier [0x00322864+507076]&#10;	GetHandleVerifier [0x00329F47+537511]&#10;	GetHandleVerifier [0x00323402+510050]&#10;	Ordinal0 [0x0021F29C+1110684]&#10;	Ordinal0 [0x0022938B+1151883]&#10;	Ordinal0 [0x002294F3+1152243]&#10;	Ordinal0 [0x002283F5+1147893]&#10;	BaseThreadInitThunk [0x75A26359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x773F7B74+228]&#10;	RtlGetAppContainerNamedObjectPath [0x773F7B44+180]&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
-session not created
-from chrome not reachable
-  (Session info: chrome=79.0.3945.130)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-SAMJ4PE', ip: '192.168.1.152', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x0028A113+1548563]
-	Ordinal0 [0x0020DDA1+1039777]
-	Ordinal0 [0x0018E32E+516910]
-	Ordinal0 [0x00188012+491538]
-	Ordinal0 [0x001886EB+493291]
-	Ordinal0 [0x00189855+497749]
-	Ordinal0 [0x00185885+481413]
-	Ordinal0 [0x0018F0D0+520400]
-	Ordinal0 [0x0013C030+180272]
-	Ordinal0 [0x0013B59D+177565]
-	Ordinal0 [0x001395FB+169467]
-	Ordinal0 [0x0012160A+71178]
-	Ordinal0 [0x00122690+75408]
-	Ordinal0 [0x00122629+75305]
-	Ordinal0 [0x002271B7+1143223]
-	GetHandleVerifier [0x00322B46+507814]
-	GetHandleVerifier [0x00322864+507076]
-	GetHandleVerifier [0x00329F47+537511]
-	GetHandleVerifier [0x00323402+510050]
-	Ordinal0 [0x0021F29C+1110684]
-	Ordinal0 [0x0022938B+1151883]
-	Ordinal0 [0x002294F3+1152243]
-	Ordinal0 [0x002283F5+1147893]
-	BaseThreadInitThunk [0x75A26359+25]
-	RtlGetAppContainerNamedObjectPath [0x773F7B74+228]
-	RtlGetAppContainerNamedObjectPath [0x773F7B44+180]
-
-	at com.orglearningMaven.HelloWorldTest.Login(HelloWorldTest.java:14)
+  <testcase name="Login" classname="com.orglearningMaven.HelloWorldTest" time="8.855"/>
+  <testcase name="testPageTitleSampleA" classname="com.orglearningMaven.HelloWorldTest" time="0.012">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.orglearningMaven.HelloWorldTest.testPageTitleSampleA(HelloWorldTest.java:29)
 </failure>
-    <system-out><![CDATA[Logging into account
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 19039
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1579789296.463][WARNING]: Timed out connecting to Chrome, retrying...
-[1579789300.465][WARNING]: Timed out connecting to Chrome, retrying...
-]]></system-err>
   </testcase>
+  <testcase name="testSampleThree" classname="com.orglearningMaven.HelloWorldTest" time="0.003"/>
 </testsuite>

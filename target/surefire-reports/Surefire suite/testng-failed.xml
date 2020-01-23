@@ -5,7 +5,8 @@
     <classes>
       <class name="com.orglearningMaven.HelloWorldTest">
         <methods>
-          <include name="Login"/>
+          <include name="testPageTitleSampleA"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- com.orglearningMaven.HelloWorldTest -->
     </classes>
