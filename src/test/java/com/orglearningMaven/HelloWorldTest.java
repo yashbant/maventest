@@ -8,8 +8,9 @@ public class HelloWorldTest {
 	
 @Test 
 	public void Login() {
+	String projectLocation = System.getProperty("user.dir");
 	 System.out.println("Logging into account");
-	 System.setProperty("webdriver.chrome.driver", "https://github.com/yashbant/maventest/blob/master/lib/chromedriver.exe");
+	 System.setProperty("webdriver.chrome.driver", projectLocation+"\\lib\\chromedriver.exe");
 	 WebDriver driver = new ChromeDriver();
 	 driver.get("https://google.com");
 }

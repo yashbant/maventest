@@ -1,8 +1,42 @@
 -------------------------------------------------------------------------------
 Test set: com.orglearningMaven.HelloWorldTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.504 s <<< FAILURE! - in com.orglearningMaven.HelloWorldTest
-Login(com.orglearningMaven.HelloWorldTest)  Time elapsed: 0.125 s  <<< FAILURE!
-java.lang.IllegalStateException: The driver executable does not exist: C:\lib\chromedriver.exe
-	at com.orglearningMaven.HelloWorldTest.Login(HelloWorldTest.java:13)
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 18.298 s <<< FAILURE! - in com.orglearningMaven.HelloWorldTest
+Login(com.orglearningMaven.HelloWorldTest)  Time elapsed: 17.05 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from chrome not reachable
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-SAMJ4PE', ip: '192.168.1.152', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0028A113+1548563]
+	Ordinal0 [0x0020DDA1+1039777]
+	Ordinal0 [0x0018E32E+516910]
+	Ordinal0 [0x00188012+491538]
+	Ordinal0 [0x001886EB+493291]
+	Ordinal0 [0x00189855+497749]
+	Ordinal0 [0x00185885+481413]
+	Ordinal0 [0x0018F0D0+520400]
+	Ordinal0 [0x0013C030+180272]
+	Ordinal0 [0x0013B59D+177565]
+	Ordinal0 [0x001395FB+169467]
+	Ordinal0 [0x0012160A+71178]
+	Ordinal0 [0x00122690+75408]
+	Ordinal0 [0x00122629+75305]
+	Ordinal0 [0x002271B7+1143223]
+	GetHandleVerifier [0x00322B46+507814]
+	GetHandleVerifier [0x00322864+507076]
+	GetHandleVerifier [0x00329F47+537511]
+	GetHandleVerifier [0x00323402+510050]
+	Ordinal0 [0x0021F29C+1110684]
+	Ordinal0 [0x0022938B+1151883]
+	Ordinal0 [0x002294F3+1152243]
+	Ordinal0 [0x002283F5+1147893]
+	BaseThreadInitThunk [0x75A26359+25]
+	RtlGetAppContainerNamedObjectPath [0x773F7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x773F7B44+180]
+
+	at com.orglearningMaven.HelloWorldTest.Login(HelloWorldTest.java:14)
 
