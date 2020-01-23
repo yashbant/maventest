@@ -9,7 +9,7 @@ public class HelloWorldTest {
 @Test 
 	public void Login() {
 	 System.out.println("Logging into account");
-	 System.setProperty("webdriver.chrome.driver", "C:\\Users\\BioQuest Win\\eclipse-workspace\\myMavenProject\\lib\\chromedriver.exe");
+	 System.setProperty("webdriver.chrome.driver", "https://github.com/yashbant/maventest/blob/master/lib/chromedriver.exe");
 	 WebDriver driver = new ChromeDriver();
 	 driver.get("https://google.com");
 }
